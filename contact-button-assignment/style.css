@@ -1,0 +1,45 @@
+/*
+MY COLOR PALETTE
+Color 1 - #51291E - Brown
+Color 2 - #F1E9DA - Tan
+Color 3 - #074F57 - Ocean Blue
+Color 4 - #659157 - Jungle Green
+Color 5 - #176087 - Lake Blue
+*/
+
+body {
+    background-color: #F1E9DA;
+    color: #51291E;
+    text-align: center;
+}
+
+button {
+    background-color: #176087;
+    color: #F1E9DA;
+    width: 200px;
+    padding: 5px;
+    font-family: "Space Mono", monospace;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+    margin: 50px;
+    border: none;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: #074F57;
+}
+
+h1 {
+  font-family: "Space Mono", monospace;
+  font-weight: 900;
+  font-style: solid;
+}
+
+h3 {
+  font-family: "Space Mono", monospace;
+  font-weight: 900;
+  font-style: normal;
+  margin: -20px;
+}
