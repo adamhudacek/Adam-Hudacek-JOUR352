@@ -78,7 +78,7 @@ h8 {
     text-decoration: none;
 }
 
-h6 {
+h4 {
     text-decoration: underline;
     font-family: "Suranna", serif;
 }
@@ -99,6 +99,11 @@ p4 {
     font-weight: 300;
 }
 
+p6 {
+    font-family: "Josefin Sans", sans-serif;
+    font-style: italic;     
+}    
+    
 .container {
     height: 50px;
     position: relative;
@@ -130,6 +135,11 @@ p4 {
     #copyright {
         background-color: #4a6c89;
         text-align: center;
+    }
+    
+    li {
+      font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;  
     }
     
 }
