@@ -3,161 +3,157 @@
  * Light Blue: #b1cae0
  */
 @media {
+    body {
+        background-color: #b1cae0;
+    }
 
-body {
-    background-color: #b1cae0;
-}
+    img {
+        width: 250px;
+        border: solid 5px #5a6c89;
+        border-radius: 50%;
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
 
-img {
-    width: 250px;
-    border: solid 5px #5a6c89;
-    border-radius: 50%;
-    text-align: center;
-    margin: auto;
-    display: block;
-}
-    
     #bio {
-        margin:auto;
+        margin: auto;
     }
 
     #idphoto {
-       
     }
-    
-.suranna-regular {
-    font-family: "Suranna", serif;
-    font-weight: 400;
-    font-style: normal;
-}
 
-.josefin-sans-<uniquifier > {
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <400>;
-    font-style: normal;
-}
+    .suranna-regular {
+        font-family: "Suranna", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
 
-h1 {
-    font-family: "Suranna", serif;
-    text-align: center;
-    font-size: 50px;
-}
+    .josefin-sans-<uniquifier > {
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <400>;
+        font-style: normal;
+    }
 
-h5 {
-    font-family: "Suranna", serif;
-    text-align: center;
-    font-size: 25px;
-}
+    h1 {
+        font-family: "Suranna", serif;
+        text-align: center;
+        font-size: 50px;
+    }
 
-button {
-    border-radius: 25px;
-    background-color: #4a6c89;
-    width: 150px;
-    padding: 10px;
-    border: none;
-    color: white;
-    font-family: "Josefin Sans", sans-serif;
-    align-self: center;
-    font-weight: 400;
-}
-    
-    #buttonthing a{
+    h5 {
+        font-family: "Suranna", serif;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    button {
+        border-radius: 25px;
+        background-color: #4a6c89;
+        width: 150px;
+        padding: 10px;
+        border: none;
         color: white;
-        text-decoration: none;    
+        font-family: "Josefin Sans", sans-serif;
+        align-self: center;
+        font-weight: 400;
+    }
+
+    #buttonthing a {
+        color: white;
+        text-decoration: none;
     }
 
     button:hover {
         text-decoration: underline;
-    }    
-    
-h8 {
-    font-family: "Suranna", serif;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-}
-
-h4 {
-    text-decoration: underline;
-    font-family: "Suranna", serif;
-}
-
-p1 {
-    font-weight: bold;
-    font-family: "Josefin Sans", sans-serif;
-}
-p2 {
-    font-family: "Josefin Sans", sans-serif;
-    font-style: italic;
-}
-p3 {
-    font-family: "Josefin Sans", sans-serif;
-}
-p4 {
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 300;
-}
-
-p6 {
-    font-family: "Josefin Sans", sans-serif;
-    font-style: italic;     
-}    
-    
-.container {
-    height: 50px;
-    position: relative;
-}
-.center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-    
-#navigation {
-    background-color: #4a6c89;
-    text-align: center;
     }
-    
-    #navigation a{
+
+    h8 {
+        font-family: "Suranna", serif;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    h4 {
+        text-decoration: underline;
+        font-family: "Suranna", serif;
+    }
+
+    p1 {
+        font-weight: bold;
+        font-family: "Josefin Sans", sans-serif;
+    }
+    p2 {
+        font-family: "Josefin Sans", sans-serif;
+        font-style: italic;
+    }
+    p3 {
+        font-family: "Josefin Sans", sans-serif;
+    }
+    p4 {
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 300;
+    }
+
+    p6 {
+        font-family: "Josefin Sans", sans-serif;
+        font-style: italic;
+    }
+
+    .container {
+        height: 50px;
+        position: relative;
+    }
+    .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    #navigation {
+        background-color: #4a6c89;
+        text-align: center;
+    }
+
+    #navigation a {
         color: white;
         text-decoration: none;
     }
-    
-    #navigation a:hover{
+
+    #navigation a:hover {
         text-decoration: underline;
         font-weight: bolder;
     }
-    
+
     #copyright {
         background-color: #4a6c89;
         text-align: center;
     }
-    
+
     li {
-      font-family: "Josefin Sans", sans-serif;
-    font-weight: 300;  
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 300;
     }
-    
 }
 
-@media (min-width:1000px) {
+@media (min-width: 1000px) {
     h1 {
         font-size: 60px;
     }
-    
+
     h5 {
         font-size: 30px;
     }
-    
+
     img {
         width: 300px;
     }
-    
+
     .intro {
-            
-}
+    }
 }
